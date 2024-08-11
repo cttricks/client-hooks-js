@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Hooks JS</title>
+</head>
+
+<body>
+    <h1 client-hook="count">-</h1>
+    <button onclick="count++">Add +1</button>
+
+    <script type="module">
+
+        import { useState, useEffect } from "/lib/v1.0-min.js";
+
+        useState('count', 0);
+
+        useEffect(()=> {
+            console.log('New Count: ', count);
+        }, {count});
+
+    </script>
+</body>
+
+</html>
