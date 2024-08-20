@@ -1,6 +1,7 @@
 # Client Hook JS
 
-Welcome to **Client Hook JS**! 🎉
+Welcome to **Client Hook JS**! 🎉 Here’s a quick example of how you might use it
+![Client Hooks JS](https://raw.githubusercontent.com/cttricks/client-hooks-js/main/screenshot.png)
 
 ## Overview
 
@@ -34,13 +35,6 @@ If you declare the client-hook attribute on an HTML element, such as:
 ```
 
 When the value of the count state variable changes, the `<h1>` tag will automatically update to reflect the new value of count. This provides a simple way to bind HTML elements to global state without needing additional code to manually update the DOM.
-
-## Example
-
-Here’s a quick example of how you might use Client Hook JS:
-
-![Client Hooks JS](https://raw.githubusercontent.com/cttricks/client-hooks-js/main/screenshot.png)
-
 
 ## Contributing
 Since this library was created primarily for my own learning and personal projects, it is provided as-is. However, I encourage like-minded developers to explore, use, and modify this library as they see fit.
